@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Introduction</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="src.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#myPage"><img src="images/logo.svg" alt="Logo" class="logoPage"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#about">GIỚI THIỆU </a></li>
+					<li><a href="#doctor">BÁC SĨ </a></li>
+					<li><a href="#services">DỊCH VỤ </a></li>
+					<li><a href="#price">GIÁ </a></li>
+					<li><a href="#contact">LIÊN HỆ </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="slider_detail">
+					<img src="images/slider1.jpg" alt="">
+					<div class="slider_text">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<h1>Lorem ipsum dolor sit.</h1>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
+										<br>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+									</p>
+									<a class="btn-follow" href="#">Đăng kí theo dõi</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="slider_detail">
+					<img src="images/slider2.jpg" alt="">
+					<div class="slider_text">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12">
+									<h1>Lorem ipsum dolor sit.</h1>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
+										<br>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+									</p>
+									<a class="btn-follow" href="#">Đăng kí theo dõi</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="services">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<span class="glyphicon glyphicon-home logo-home"></span>
+						</div>
+						<br>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+								fugiat nulla. Laudantium.</p>
+							<a class="btn-read-more" href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="services">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<span class="glyphicon glyphicon-home logo-home"></span>
+						</div>
+						<br>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+								fugiat nulla. Laudantium.</p>
+							<a class="btn-read-more buttons" href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="services">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<span class="glyphicon glyphicon-home logo-home"></span>
+						</div>
+						<br>
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+								fugiat nulla. Laudantium.</p>
+							<a class="btn-read-more buttons" href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Container (About Section) -->
+	<div id="about" class="container">
+		<div class="row">
+			<div class="col-sm-8">
+				<h2>Giới thiệu phòng khám </h2><br>
+				<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus vero incidunt accusamus
+					culpa facilis doloremque quam possimus, iusto repellat ipsum ad quod, veniam sunt. Quam soluta
+					possimus dicta doloribus?</h4>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit dolore quidem ullam unde
+					itaque eius! Ratione voluptatum repellat illum.</p>
+				<br><a class="btn-read-more">Liên hệ với chúng tôi</a>
+			</div>
+			<div class="col-sm-4">
+				<span class="glyphicon glyphicon-signal logo"></span>
+			</div>
+		</div>
+	</div>
+
+	<!-- Container (Doctors) Section) -->
+	<div id="doctor" class="container text-center bg-grey">
+		<h2>Bác sĩ của chúng tôi </h2><br>
+		<div class="row text-center slideanim">
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="images/doctor5.jpg" alt="Paris" width="400" height="300">
+					<p><strong>ABC</strong></p>
+					<p>Bác sĩ tại bệnh viện ABC</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="images/doctor6.jpg" alt="New York" width="400" height="300">
+					<p><strong>ABC</strong></p>
+					<p>Bác sĩ tại bệnh viện ABC</p>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail">
+					<img src="images/doctor4.jpg" alt="San Francisco" width="400" height="300">
+					<p><strong>ABC</strong></p>
+					<p>Bác sĩ tại bệnh viện ABC</p>
+				</div>
+			</div>
+		</div><br>
+
+		<!-- Container (Doctors Section) -->
+		<div id="services" class="container-fluid text-center">
+			<h2>Dịch vụ </h2>
+			<h4>Các dịch vụ của chúng tôi bao gồm </h4>
+			<br>
+			<div class="row slideanim">
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-off logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-heart logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-lock logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+			<br><br>
+			<div class="row slideanim">
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-leaf logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-certificate logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm-4">
+					<span class="glyphicon glyphicon-wrench logo-small"></span>
+					<h4>ABC </h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+		</div>
+		<div id="price" class="container-fluid">
+			<div class="text-center">
+				<h2>Bảng giá </h2>
+				<h4>Chọn giá mà bạn muốn </h4>
+			</div>
+			<div class="row slideanim">
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>Cơ bản </h1>
+						</div>
+						<div class="panel-body">
+							<p><strong>20</strong> abc </p>
+							<p><strong>15</strong> ad </p>
+							<p><strong>5</strong> </p>
+							<p><strong>2</strong> Sit</p>
+						</div>
+						<div class="panel-footer">
+							<h3>5$ </h3>
+							<button class="btn btn-lg">Đăng kí </button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>Nâng cao </h1>
+						</div>
+						<div class="panel-body">
+							<p><strong>50</strong> abc </p>
+							<p><strong>20</strong> ad </p>
+							<p><strong>10</strong> </p>
+							<p><strong>5</strong> Sit</p>
+						</div>
+						<div class="panel-footer">
+							<h3>10$ </h3>
+							<button class="btn btn-lg">Đăng kí </button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<div class="panel panel-default text-center">
+						<div class="panel-heading">
+							<h1>Cao cấp </h1>
+						</div>
+						<div class="panel-body">
+							<p><strong>100</strong> abc </p>
+							<p><strong>30</strong> ad </p>
+							<p><strong>15</strong> </p>
+							<p><strong>10</strong> Sit</p>
+						</div>
+						<div class="panel-footer">
+							<h3>20$ </h3>
+							<button class="btn btn-lg">Đăng kí </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="container bg-grey">
+		<h2 class="text-center">LIÊN HỆ </h2>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<h4>Đặt lịch hẹn</h4>
+				<div class="contact_form_div">
+					<img src="images/appointment_form.jpg" width="570" height="365" alt="">
+					<div class="contact_form">
+						<div class="form-group">
+							<input class="form-control" id="name" name="name" placeholder="Tên " type="text" required>
+						</div>
+						<div class="form-group">
+							<input class="form-control" id="phone" name="phone" placeholder="SĐT" type="text" required>
+						</div>
+						<textarea class="form-control" id="comments" name="comments" placeholder="Ghi chú "
+							rows="5"></textarea><br>
+						<div class="row">
+							<div class="form-group">
+								<button class="btn btn-default pull-left" type="submit">Gởi yêu cầu </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="googleMap" style="height:400px;width:100%;"></div>
+
+	<footer class="container-fluid text-center">
+		<a href="#myPage" title="To Top">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+	</footer>
+
+
+</body>
+
+</html>
