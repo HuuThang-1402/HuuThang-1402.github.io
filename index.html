@@ -8,14 +8,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<script src="owlcarousel/owl.carousel.min.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="src.js"></script>
 
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-	
+
+	<!-- Start Header Section -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -28,297 +33,124 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#about">GIỚI THIỆU </a></li>
-					<li><a href="#doctor">BÁC SĨ </a></li>
-					<li><a href="#services">DỊCH VỤ </a></li>
-					<li><a href="#price">GIÁ </a></li>
-					<li><a href="#contact">LIÊN HỆ </a></li>
+					<li><a href="#homepage">Home</a></li>
+					<li><a href="#about">About Us </a></li>
+					<li><a href="#doctors">Doctors </a></li>
+					<li><a href="#services">Services </a></li>
+					<li><a href="#event">Event </a></li>
+					<li><a href="#address">Address </a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+	<!-- End Header Section -->
 
-	<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<div class="slider_detail">
-					<img src="images/slider1.jpg" alt="">
-					<div class="slider_text">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12">
-									<h1>Lorem ipsum dolor sit.</h1>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
-										<br>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
-									</p>
-									<a class="btn-follow" href="#">Đăng kí theo dõi</a>
+	<!-- Start Main Page -->
+	<div id="homepage">
+		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+			<div class="carousel-inner main-page" role="listbox">
+				<div class="item active">
+					<div class="slider_detail">
+						<img src="images/slider1.jpg" alt="">
+						<div class="slider_text">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<h1>Lorem ipsum dolor sit.</h1>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
+											<br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+										</p>
+										<a class="btn-follow" href="#">Follow Us</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="slider_detail">
+						<img src="images/slider2.jpg" alt="">
+						<div class="slider_text">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<h1>Lorem ipsum dolor sit.</h1>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
+											<br>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+										</p>
+										<a class="btn-follow" href="#">Đăng kí theo dõi</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				<div class="slider_detail">
-					<img src="images/slider2.jpg" alt="">
-					<div class="slider_text">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12">
-									<h1>Lorem ipsum dolor sit.</h1>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
-										<br>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
-									</p>
-									<a class="btn-follow" href="#">Đăng kí theo dõi</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-		<!-- Left and right controls -->
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4">
-				<div class="services">
-					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-8">
-							<h4>Lorem ipsum dolor sit amet.</h4>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4">
-							<span class="glyphicon glyphicon-home logo-home"></span>
-						</div>
-						<br>
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
-								fugiat nulla. Laudantium.</p>
-							<a class="btn-read-more" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4">
-				<div class="services">
-					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-8">
-							<h4>Lorem ipsum dolor sit amet.</h4>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4">
-							<span class="glyphicon glyphicon-home logo-home"></span>
-						</div>
-						<br>
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
-								fugiat nulla. Laudantium.</p>
-							<a class="btn-read-more buttons" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4">
-				<div class="services">
-					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-8">
-							<h4>Lorem ipsum dolor sit amet.</h4>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4">
-							<span class="glyphicon glyphicon-home logo-home"></span>
-						</div>
-						<br>
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
-								fugiat nulla. Laudantium.</p>
-							<a class="btn-read-more buttons" href="#">Read more</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<!-- Container (About Section) -->
-	<div id="about" class="container">
-		<div class="row">
-			<div class="col-sm-8">
-				<h2>Giới thiệu phòng khám </h2><br>
-				<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ducimus vero incidunt accusamus
-					culpa facilis doloremque quam possimus, iusto repellat ipsum ad quod, veniam sunt. Quam soluta
-					possimus dicta doloribus?</h4>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit dolore quidem ullam unde
-					itaque eius! Ratione voluptatum repellat illum.</p>
-				<br><a class="btn-read-more">Liên hệ với chúng tôi</a>
-			</div>
-			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-signal logo"></span>
-			</div>
-		</div>
-	</div>
-
-	<!-- Container (Doctors) Section) -->
-	<div id="doctor" class="container text-center bg-grey">
-		<h2>Bác sĩ của chúng tôi </h2><br>
-		<div class="row text-center slideanim">
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="images/doctor5.jpg" alt="Paris" width="400" height="300">
-					<p><strong>ABC</strong></p>
-					<p>Bác sĩ tại bệnh viện ABC</p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="images/doctor6.jpg" alt="New York" width="400" height="300">
-					<p><strong>ABC</strong></p>
-					<p>Bác sĩ tại bệnh viện ABC</p>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="images/doctor4.jpg" alt="San Francisco" width="400" height="300">
-					<p><strong>ABC</strong></p>
-					<p>Bác sĩ tại bệnh viện ABC</p>
-				</div>
-			</div>
-		</div><br>
-
-		<!-- Container (Doctors Section) -->
-		<div id="services" class="container-fluid text-center">
-			<h2>Dịch vụ </h2>
-			<h4>Các dịch vụ của chúng tôi bao gồm </h4>
-			<br>
-			<div class="row slideanim">
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-off logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-heart logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-lock logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-			</div>
-			<br><br>
-			<div class="row slideanim">
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-leaf logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-certificate logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="col-sm-4">
-					<span class="glyphicon glyphicon-wrench logo-small"></span>
-					<h4>ABC </h4>
-					<p>Lorem ipsum dolor sit amet.</p>
-				</div>
-			</div>
-		</div>
-		<div id="price" class="container-fluid">
-			<div class="text-center">
-				<h2>Bảng giá </h2>
-				<h4>Chọn giá mà bạn muốn </h4>
-			</div>
-			<div class="row slideanim">
-				<div class="col-sm-4 col-xs-12">
-					<div class="panel panel-default text-center">
-						<div class="panel-heading">
-							<h1>Cơ bản </h1>
-						</div>
-						<div class="panel-body">
-							<p><strong>20</strong> abc </p>
-							<p><strong>15</strong> ad </p>
-							<p><strong>5</strong> </p>
-							<p><strong>2</strong> Sit</p>
-						</div>
-						<div class="panel-footer">
-							<h3>5$ </h3>
-							<button class="btn btn-lg">Đăng kí </button>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<div class="panel panel-default text-center">
-						<div class="panel-heading">
-							<h1>Nâng cao </h1>
-						</div>
-						<div class="panel-body">
-							<p><strong>50</strong> abc </p>
-							<p><strong>20</strong> ad </p>
-							<p><strong>10</strong> </p>
-							<p><strong>5</strong> Sit</p>
-						</div>
-						<div class="panel-footer">
-							<h3>10$ </h3>
-							<button class="btn btn-lg">Đăng kí </button>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-xs-12">
-					<div class="panel panel-default text-center">
-						<div class="panel-heading">
-							<h1>Cao cấp </h1>
-						</div>
-						<div class="panel-body">
-							<p><strong>100</strong> abc </p>
-							<p><strong>30</strong> ad </p>
-							<p><strong>15</strong> </p>
-							<p><strong>10</strong> Sit</p>
-						</div>
-						<div class="panel-footer">
-							<h3>20$ </h3>
-							<button class="btn btn-lg">Đăng kí </button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="contact" class="container bg-grey">
-		<h2 class="text-center">LIÊN HỆ </h2>
-		<div class="row">
-			<div class="col-sm-6">
-			</div>
-			<div class="col-sm-6">
-				<h4>Đặt lịch hẹn</h4>
-				<div class="contact_form_div">
-					<img src="images/appointment_form.jpg" width="570" height="365" alt="">
-					<div class="contact_form">
-						<div class="form-group">
-							<input class="form-control" id="name" name="name" placeholder="Tên " type="text" required>
-						</div>
-						<div class="form-group">
-							<input class="form-control" id="phone" name="phone" placeholder="SĐT" type="text" required>
-						</div>
-						<textarea class="form-control" id="comments" name="comments" placeholder="Ghi chú "
-							rows="5"></textarea><br>
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="services">
 						<div class="row">
-							<div class="form-group">
-								<button class="btn btn-default pull-left" type="submit">Gởi yêu cầu </button>
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<h4>Lorem ipsum dolor sit amet.</h4>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<span class="glyphicon glyphicon-home logo-home"></span>
+							</div>
+							<br>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+									fugiat nulla. Laudantium.</p>
+								<a class="btn-read-more" href="#">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="services">
+						<div class="row">
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<h4>Lorem ipsum dolor sit amet.</h4>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<span class="glyphicon glyphicon-home logo-home"></span>
+							</div>
+							<br>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+									fugiat nulla. Laudantium.</p>
+								<a class="btn-read-more buttons" href="#">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="services">
+						<div class="row">
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<h4>Lorem ipsum dolor sit amet.</h4>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4">
+								<span class="glyphicon glyphicon-home logo-home"></span>
+							</div>
+							<br>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt harum tenetur
+									fugiat nulla. Laudantium.</p>
+								<a class="btn-read-more buttons" href="#">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -326,8 +158,303 @@
 			</div>
 		</div>
 	</div>
+	<!-- End Main Page -->
 
-	<div id="googleMap" style="height:400px;width:100%;"></div>
+	<!-- Start About Section -->
+	<div class="about-section bg-grey" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="about-img">
+						<img src="images/about-left.png" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="about_heading">
+						<h1>ABOUT US</h1>
+					</div>
+					<div class="about_info">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ullam commodi. Ipsum
+							error sint quam. Delectus hic in voluptate corporis alias, rem animi inventore perferendis,
+							eius suscipit nesciunt. Voluptas mollitia quae voluptatem corrupti nesciunt ut asperiores
+							laborum fugiat eum expedita, nihil eaque quo! Itaque, eos provident nostrum dolorem
+							perferendis pariatur beatae magni, neque maxime error quibusdam minus similique,
+							exercitationem autem.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus autem, voluptate officia
+							iusto qui laudantium eius aliquid harum dolorem optio expedita perferendis adipisci unde
+							fugiat pariatur natus laboriosam. Obcaecati, deserunt.</p>
+						<h4>Working Hours</h4>
+						<table>
+							<tr>
+								<th>Day</th>
+								<th>Open</th>
+								<th>Close</th>
+							</tr>
+							<tr>
+								<td>Mon-Wed</td>
+								<td>10:00am</td>
+								<td>09:30pm</td>
+							</tr>
+							<tr>
+								<td>Thu-Fri</td>
+								<td>09:00am</td>
+								<td>10:30pm</td>
+							</tr>
+							<tr>
+								<td>Sat-Sun</td>
+								<td>09:30am</td>
+								<td>08:30pm</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About Section -->
+
+	<!-- Start Doctors Section -->
+	<div id="doctors" class="doctors-section">
+		<div class="container text-center">
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<div class="spc-heading">
+						<h2>Our Doctors</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+							Quae quo earum accusantium minima libero harum!</p>
+					</div>
+				</div>
+			</div>
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor1.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor2.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor3.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+	
+				</div>
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor4.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+	
+				</div>
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor5.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+	
+				</div>
+				<div class="item">
+					<div class="specialistbox">
+						<img src="images/doctors/doctor6.png" alt="" class="img-responsive">
+						<div class="spc-info">
+							<div class="spc-infobox">
+								<h1>Cristiano Ronaldo</h1>
+								<p>Ronaldo</p>
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="spc-infoshow">
+							<h3>Cristiano Ronaldo</h3>
+							<p>Ronaldo</p>
+						</div>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Doctors Section -->
+	
+	
+
+	<!-- Start Services Section -->
+	<div id="services" class="services-section">
+		<div class="container bg-grey">
+			<!-- <h2 class="text-center">DỊCH VỤ</h2> -->
+			<div class="row">
+				<div class="col-lg-6 col-md-7 col-sm-12">
+					<h4 class="ser-heading">What we do</h4>
+					<div class="ser-tab">
+						<ul id="myTab" class="nav nav-tabs">
+							<li class="active"><a href="#services1" data-toggle="tab">services # 1</a></li>
+							<li><a href="#services2" data-toggle="tab">services # 2</a></li>
+							<li><a href="#services3" data-toggle="tab">services # 3</a></li>
+						  </ul>
+						<div id="myTabContent" class="tab-content">
+							<div class="tab-pane fade in active" id="services1">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<img src="images/service1.jpg" alt="" width="228" height="252">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<h4 class="ser-info-heading">
+											Lorem ipsum dolor sit amet, consectetur adipisicing.
+										</h4>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<a class="btn-read-more" href="#">Read more</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="services2">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<h4 class="ser-info-heading">
+											Lorem ipsum dolor sit amet, consectetur adipisicing.
+										</h4>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<a class="btn-read-more" href="#">Read more</a>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<img src="images/service1.jpg" alt="" width="228" height="252">
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="services3">
+								<div class="row">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<img src="images/service2.jpg" alt="" width="515" height="252">
+										<h4 class="ser-info-heading">
+											Lorem ipsum dolor sit amet, consectetur adipisicing.
+										</h4>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<a class="btn-read-more" href="#">Read more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-5 col-sm-12">
+					<h4 class="ser-heading">Book an Appointment</h4>
+					<div class="contact_form_div">
+						<img src="images/appointment_form.jpg" width="512" height="365" alt="">
+						<div class="contact_form">
+							<div class="row">
+								<div class="col-lg-6 col-md-7 col-sm-6">
+									<div class="form-group">
+										<input class="form-control" id="name" name="name" placeholder="Name " type="text"
+											required>
+									</div>
+									<div class="form-group">
+										<input class="form-control" id="phone" name="phone" placeholder="Phone number" type="text"
+											required>
+									</div>
+									<textarea class="form-control" id="comments" name="comments" placeholder="Note "
+										rows="5"></textarea><br>
+								</div>
+							</div>
+							<div class="row">
+								<div clas="col-lg-3 col-md-4 col-sm-3">
+									<button class="btn btn-default pull-left" type="submit">Gởi yêu cầu </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Services Section -->
+
+	<div id="address">
+		<div id="googleMap" style="height:400px;width:100%;"></div>
+	</div>
 
 	<footer class="container-fluid text-center">
 		<a href="#myPage" title="To Top">
