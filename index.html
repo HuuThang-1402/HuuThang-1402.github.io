@@ -14,11 +14,13 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="http://maps.googleapis.com/maps/api/js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="src.js"></script>
+	<script type="text/javascript" src="src.js"></script>
 
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	
 
 	<!-- Start Header Section -->
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -37,7 +39,7 @@
 					<li><a href="#about">About Us </a></li>
 					<li><a href="#doctors">Doctors </a></li>
 					<li><a href="#services">Services </a></li>
-					<li><a href="#event">Event </a></li>
+					<li><a href="#news">News </a></li>
 					<li><a href="#address">Address </a></li>
 				</ul>
 			</div>
@@ -54,12 +56,13 @@
 						<img src="images/slider1.jpg" alt="">
 						<div class="slider_text">
 							<div class="container">
-								<div class="row">
+								<div class="row slideanim">
 									<div class="col-lg-12 col-md-12 col-sm-12">
 										<h1>Lorem ipsum dolor sit.</h1>
 										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
 											<br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
+											eveniet?
 										</p>
 										<a class="btn-follow" href="#">Follow Us</a>
 									</div>
@@ -73,14 +76,15 @@
 						<img src="images/slider2.jpg" alt="">
 						<div class="slider_text">
 							<div class="container">
-								<div class="row">
+								<div class="row slideanim">
 									<div class="col-lg-12 col-md-12 col-sm-12">
 										<h1>Lorem ipsum dolor sit.</h1>
 										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, fugit?
 											<br>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eveniet?
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
+											eveniet?
 										</p>
-										<a class="btn-follow" href="#">Đăng kí theo dõi</a>
+										<a class="btn-follow" href="#">Follow Us</a>
 									</div>
 								</div>
 							</div>
@@ -98,9 +102,9 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-	
+
 		<div class="container">
-			<div class="row">
+			<div class="row slideanim">
 				<div class="col-lg-4 col-md-4 col-sm-4">
 					<div class="services">
 						<div class="row">
@@ -164,12 +168,12 @@
 	<div class="about-section bg-grey" id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 slideanim">
 					<div class="about-img">
 						<img src="images/about-left.png" alt="">
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 slideanim">
 					<div class="about_heading">
 						<h1>ABOUT US</h1>
 					</div>
@@ -218,14 +222,14 @@
 		<div class="container text-center">
 			<div class="row text-center">
 				<div class="col-sm-12">
-					<div class="spc-heading">
+					<div class="spc-heading slideanim">
 						<h2>Our Doctors</h2>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
 							Quae quo earum accusantium minima libero harum!</p>
 					</div>
 				</div>
 			</div>
-			<div class="owl-carousel owl-theme">
+			<div class="owl-carousel owl-theme slideanim">
 				<div class="item">
 					<div class="specialistbox">
 						<img src="images/doctors/doctor1.png" alt="" class="img-responsive">
@@ -288,7 +292,7 @@
 							<p>Ronaldo</p>
 						</div>
 					</div>
-	
+
 				</div>
 				<div class="item">
 					<div class="specialistbox">
@@ -310,7 +314,7 @@
 							<p>Ronaldo</p>
 						</div>
 					</div>
-	
+
 				</div>
 				<div class="item">
 					<div class="specialistbox">
@@ -332,7 +336,7 @@
 							<p>Ronaldo</p>
 						</div>
 					</div>
-	
+
 				</div>
 				<div class="item">
 					<div class="specialistbox">
@@ -354,28 +358,28 @@
 							<p>Ronaldo</p>
 						</div>
 					</div>
-	
+
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Doctors Section -->
-	
-	
+
+
 
 	<!-- Start Services Section -->
 	<div id="services" class="services-section">
 		<div class="container bg-grey">
 			<!-- <h2 class="text-center">DỊCH VỤ</h2> -->
 			<div class="row">
-				<div class="col-lg-6 col-md-7 col-sm-12">
+				<div class="col-lg-6 col-md-7 col-sm-12 slideanim">
 					<h4 class="ser-heading">What we do</h4>
 					<div class="ser-tab">
 						<ul id="myTab" class="nav nav-tabs">
 							<li class="active"><a href="#services1" data-toggle="tab">services # 1</a></li>
 							<li><a href="#services2" data-toggle="tab">services # 2</a></li>
 							<li><a href="#services3" data-toggle="tab">services # 3</a></li>
-						  </ul>
+						</ul>
 						<div id="myTabContent" class="tab-content">
 							<div class="tab-pane fade in active" id="services1">
 								<div class="row">
@@ -386,7 +390,9 @@
 										<h4 class="ser-info-heading">
 											Lorem ipsum dolor sit amet, consectetur adipisicing.
 										</h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam
+											sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi
+											iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
 										<a class="btn-read-more" href="#">Read more</a>
 									</div>
 								</div>
@@ -397,7 +403,9 @@
 										<h4 class="ser-info-heading">
 											Lorem ipsum dolor sit amet, consectetur adipisicing.
 										</h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam
+											sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi
+											iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
 										<a class="btn-read-more" href="#">Read more</a>
 									</div>
 									<div class="col-lg-6 col-md-6 col-sm-6">
@@ -412,7 +420,9 @@
 										<h4 class="ser-info-heading">
 											Lorem ipsum dolor sit amet, consectetur adipisicing.
 										</h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque qui quisquam
+											sapiente aperiam libero,<br> sint aut debitis quaerat exercitationem commodi
+											iure voluptas deserunt atque soluta odit eum officia incidunt suscipit.</p>
 										<a class="btn-read-more" href="#">Read more</a>
 									</div>
 								</div>
@@ -420,29 +430,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-5 col-sm-12">
+				<div class="col-lg-6 col-md-5 col-sm-12 slideanim">
 					<h4 class="ser-heading">Book an Appointment</h4>
 					<div class="contact_form_div">
 						<img src="images/appointment_form.jpg" width="512" height="365" alt="">
 						<div class="contact_form">
 							<div class="row">
-								<div class="col-lg-6 col-md-7 col-sm-6">
+								<div class="col-lg-6 col-md-7 col-sm-6 col-xs-6">
 									<div class="form-group">
-										<input class="form-control" id="name" name="name" placeholder="Name " type="text"
-											required>
+										<input class="form-control" id="name" name="name" placeholder="Full Name"
+											type="text" required>
 									</div>
 									<div class="form-group">
-										<input class="form-control" id="phone" name="phone" placeholder="Phone number" type="text"
-											required>
+										<input class="form-control" id="phone" name="phone" placeholder="Phone number"type="text" required>
 									</div>
-									<textarea class="form-control" id="comments" name="comments" placeholder="Note "
-										rows="5"></textarea><br>
+									<div class="form-group">
+										<input type="date" class="form-control" id="date" name="date">
+									</div>
+									<textarea class="form-control" id="note" name="note" placeholder="Note"
+										rows="3"></textarea><br>
 								</div>
 							</div>
 							<div class="row">
 								<div clas="col-lg-3 col-md-4 col-sm-3">
-									<button class="btn btn-default pull-left" type="submit">Gởi yêu cầu </button>
+									<button class="btn btn-default pull-left" type="submit" onclick="return checkForm()">Submit</button>			
 								</div>
+								<p id="checkValue"></p>
 							</div>
 						</div>
 					</div>
@@ -452,15 +465,143 @@
 	</div>
 	<!-- End Services Section -->
 
+
+	<!-- Start News Section -->
+	<div id="news" class="news-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="news-heading slideanim">
+						<h2>News and Our Blog</h2>
+					</div>
+				</div>
+			</div>
+			<div class="owl-carousel owl-theme slideanim">
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new1.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new2.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new3.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new4.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new5.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="newsbox">
+						<img src="images/news/new6.jpg" alt="" class="img-responsive">
+						<div class="newsbox-info">
+							<h4 class="title-color">Lionel Messi</h4>
+							<p class="news-content">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+							<a href="#" class="news-read-more">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End News Section -->
+
+	<!-- Start Users Feedback -->
+
+	<div id="user-feedback" class="userfb-section">
+		<div class="container-fluid bg-user slideanim">
+			<div class="user-heading container">
+				<h1>What do our users say?</h1>
+			</div>
+		</div>
+		<div class="container slideanim">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="userbox-content userbox-1">
+						<div class="user-text">
+							<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis laboriosam minus ut reprehenderit quod?</h4>
+							<!-- <div class="user-img" data-image-width="206" data-image-height="206"></div> -->
+							<img src="images/users/user1.jpg" class="user-img" alt="" data-image-width="206" data-image-height="206">
+							<p>Celia Almeda</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="userbox-content">
+						<div class="user-text">
+							<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis laboriosam minus ut reprehenderit quod?</h4>
+							<!-- <div class="user-img" data-image-width="206" data-image-height="206"></div> -->
+							<img src="images/users/user2.jpg" class="user-img" alt="" data-image-width="206" data-image-height="206">
+							<p>Celia Almeda</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="userbox-content">
+						<div class="user-text">
+							<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis laboriosam minus ut reprehenderit quod?</h4>
+							<!-- <div class="user-img" data-image-width="206" data-image-height="206"></div> -->
+							<img src="images/users/user3.jpg" class="user-img" alt="" data-image-width="206" data-image-height="206">
+							<p>Celia Almeda</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- End Users Feedback -->
+	
+
 	<div id="address">
 		<div id="googleMap" style="height:400px;width:100%;"></div>
 	</div>
 
-	<footer class="container-fluid text-center">
+	<!-- <footer class="container-fluid text-center">
 		<a href="#myPage" title="To Top">
 			<span class="glyphicon glyphicon-chevron-up"></span>
 		</a>
-	</footer>
+	</footer> -->
+
+	<div class="button_scroll2top" onclick="page_scroll2top()">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </div>
 
 
 </body>
